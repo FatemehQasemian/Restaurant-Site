@@ -14,13 +14,6 @@ body {
 
 /**HEADER**/
 
-
-/* .navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-} */
-
 #header-nav {
     background-color: #f6b319;
     border-radius: 0;
@@ -101,6 +94,19 @@ body {
 .navbar-brand p span {
     /* Star-K */
     vertical-align: middle;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-nav li i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #nav-list {
